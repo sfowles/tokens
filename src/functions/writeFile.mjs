@@ -20,13 +20,21 @@ function write(file, path, name, isToken, format) {
 			fileContent += ' * Do not edit directly\n';
 			fileContent += ' * Generated on ' + new Date().toUTCString() + '\n';
 			fileContent += ' */\n\n';
-			fileContent += `const ${name} = ${JSON.stringify(file, null, '  ')}\n\nexport default ${name};\n`;
+			fileContent += `const ${name} = ${JSON.stringify(
+				file,
+				null,
+				'  '
+			)}\n\nexport default ${name};\n`;
 		}
 		if (format == 'json') {
 			fileContent = `{\n"${name}": ${JSON.stringify(file, null, '  ')}\n}\n`;
 		}
 		if (format == 'd.ts') {
-			fileContent = `declare module '@edma/design-tokens/js/${name}';`;
+			fileContent = '/**\n';
+			fileContent += ' * Do not edit directly\n';
+			fileContent += ' * Generated on ' + new Date().toUTCString() + '\n';
+			fileContent += ' */\n\n';
+			fileContent += `declare module '@fowles/tokens/js/${name}';`;
 			filePath = `js/${name}`;
 		}
 		filePath += `.${format}`;

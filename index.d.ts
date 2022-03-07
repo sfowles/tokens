@@ -1,4 +1,4 @@
-declare module '@edma/design-tokens/';
+declare module '@fowles/design-tokens/';
 
 import borderRadius from './js/borderRadius';
 import borderSize from './js/borderSize';
@@ -14,16 +14,16 @@ import weight from './js/weight';
 import z from './js/z';
 
 export {
-    borderRadius,
-    borderSize,
-    brand,
-    breakpoint,
-    color,
-    font,
-    fontSize,
-    lineHeight,
-    shadow,
-    spacing,
-    weight,
-    z,
-}
+	borderRadius,
+	borderSize,
+	brand,
+	breakpoint,
+	color,
+	font,
+	fontSize,
+	lineHeight,
+	shadow,
+	spacing,
+	weight,
+	z
+};

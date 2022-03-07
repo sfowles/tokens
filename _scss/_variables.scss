@@ -1,146 +1,149 @@
-/**
- * Do not edit directly
- * Generated on Wed, 05 May 2021 19:53:37 GMT
- */
+// Do not edit directly
+// Generated on Mon, 07 Mar 2022 02:44:32 GMT
 
-$border-radius-1: 8px;
+$border-radius-1: 4px;
+$border-radius-2: 8px;
 $border-size-1: 1px;
 $border-size-2: 2px;
-$brand-lightest-yellow: hsl(51,90%,79%); /* Brand Lightest Yellow */
-$brand-light-yellow: hsl(49,89%,56%); /* Brand Light Yellow */
-$brand-yellow: hsl(48,100%,47%); /* Brand Yellow */
-$brand-dark-yellow: hsl(46,95%,33%); /* Brand Dark Yellow */
-$brand-lightest-red: hsl(3,69%,83%); /* Brand Lightest Red */
-$brand-light-red: hsl(3,68%,62%); /* Brand Light Red */
-$brand-red: hsl(1,75%,22%); /* Brand Red */
-$brand-dark-red: hsl(9,98%,26%); /* Brand Dark Red */
-$brand-lightest-blue: hsl(220,34%,88%); /* Brand Lightest Blue */
-$brand-light-blue: hsl(222,45%,42%); /* Brand Light Blue */
-$brand-blue: hsl(218,100%,26%); /* Brand Blue */
-$brand-dark-blue: hsl(225,97%,18%); /* Brand Dark Blue */
-$brand-lightest-cyan: hsl(196,70%,88%); /* Brand Lightest Cyan */
-$brand-light-cyan: hsl(198,69%,60%); /* Brand Light Cyan */
-$brand-cyan: hsl(196,73%,53%); /* Brand Cyan */
-$brand-dark-cyan: hsl(196,73%,35%); /* Brand Dark Cyan */
-$brand-lightest-green: hsl(134,34%,78%); /* Brand Lightest Green */
-$brand-light-green: hsl(132,33%,50%); /* Brand Light Green */
-$brand-green: hsl(132,74%,30%); /* Brand Green */
-$brand-dark-green: hsl(133,88%,20%); /* Brand Dark Green */
+$brand-lightest-yellow: hsl(51, 90%, 79%); // Brand Lightest Yellow
+$brand-light-yellow: hsl(49, 89%, 56%); // Brand Light Yellow
+$brand-yellow: hsl(48, 100%, 47%); // Brand Yellow
+$brand-dark-yellow: hsl(46, 95%, 33%); // Brand Dark Yellow
+$brand-lightest-red: hsl(3, 69%, 83%); // Brand Lightest Red
+$brand-light-red: hsl(3, 68%, 62%); // Brand Light Red
+$brand-red: hsl(1, 75%, 22%); // Brand Red
+$brand-dark-red: hsl(9, 98%, 26%); // Brand Dark Red
+$brand-lightest-blue: hsl(220, 34%, 88%); // Brand Lightest Blue
+$brand-light-blue: hsl(222, 45%, 42%); // Brand Light Blue
+$brand-blue: hsl(218, 100%, 26%); // Brand Blue
+$brand-dark-blue: hsl(225, 97%, 18%); // Brand Dark Blue
+$brand-lightest-cyan: hsl(196, 70%, 88%); // Brand Lightest Cyan
+$brand-light-cyan: hsl(198, 69%, 60%); // Brand Light Cyan
+$brand-cyan: hsl(196, 73%, 53%); // Brand Cyan
+$brand-dark-cyan: hsl(196, 73%, 35%); // Brand Dark Cyan
+$brand-lightest-green: hsl(134, 34%, 78%); // Brand Lightest Green
+$brand-light-green: hsl(132, 33%, 50%); // Brand Light Green
+$brand-green: hsl(132, 74%, 30%); // Brand Green
+$brand-dark-green: hsl(133, 88%, 20%); // Brand Dark Green
 $breakpoint-desktop: 1200px;
 $breakpoint-tablet: 1050px;
 $breakpoint-phone: 750px;
-$color-black: hsl(240,3%,10%); /* Black */
-$color-white: hsl(0,0%,100%); /* White */
-$color-g-50: hsl(180,4%,95%); /* Gray 50 */
-$color-g-100: hsl(210,4%,90%); /* Gray 100 */
-$color-g-200: hsl(220,4%,85%); /* Gray 200 */
-$color-g-300: hsl(216,3%,74%); /* Gray 300 */
-$color-g-400: hsl(217,4%,62%); /* Gray 400 */
-$color-g-500: hsl(216,4%,47%); /* Gray 500 */
-$color-g-600: hsl(217,4%,38%); /* Gray 600 */
-$color-g-700: hsl(214,4%,30%); /* Gray 700 */
-$color-g-800: hsl(210,3%,22%); /* Gray 800 */
-$color-g-900: hsl(220,3%,17%); /* Gray 900 */
-$color-y-50: hsl(46,90%,96%); /* Yellow 50 */
-$color-y-100: hsl(48,86%,90%); /* Yellow 100 */
-$color-y-200: hsl(48,87%,84%); /* Yellow 200 */
-$color-y-300: hsl(48,87%,73%); /* Yellow 300 */
-$color-y-400: hsl(48,87%,61%); /* Yellow 400 */
-$color-y-500: hsl(48,100%,47%); /* Yellow 500 */
-$color-y-600: hsl(42,100%,47%); /* Yellow 600 */
-$color-y-700: hsl(37,100%,47%); /* Yellow 700 */
-$color-y-800: hsl(33,100%,47%); /* Yellow 800 */
-$color-y-900: hsl(25,100%,47%); /* Yellow 900 */
-$color-br-50: hsl(24,50%,96%); /* Brown 50 */
-$color-br-100: hsl(27,47%,90%); /* Brown 100 */
-$color-br-200: hsl(28,47%,85%); /* Brown 200 */
-$color-br-300: hsl(28,46%,74%); /* Brown 300 */
-$color-br-400: hsl(27,47%,62%); /* Brown 400 */
-$color-br-500: hsl(28,47%,46%); /* Brown 500 */
-$color-br-600: hsl(28,47%,37%); /* Brown 600 */
-$color-br-700: hsl(27,46%,30%); /* Brown 700 */
-$color-br-800: hsl(27,46%,21%); /* Brown 800 */
-$color-br-900: hsl(27,47%,17%); /* Brown 900 */
-$color-r-50: hsl(3,80%,96%); /* Red 50 */
-$color-r-100: hsl(1,73%,90%); /* Red 100 */
-$color-r-200: hsl(1,76%,85%); /* Red 200 */
-$color-r-300: hsl(2,75%,73%); /* Red 300 */
-$color-r-400: hsl(2,76%,61%); /* Red 400 */
-$color-r-500: hsl(2,75%,46%); /* Red 500 */
-$color-r-600: hsl(2,76%,38%); /* Red 600 */
-$color-r-700: hsl(2,76%,30%); /* Red 700 */
-$color-r-800: hsl(1,75%,22%); /* Header */
-$color-r-900: hsl(2,76%,16%); /* Red 900 */
-$color-p-50: hsl(333,100%,96%); /* Pink 50 */
-$color-p-100: hsl(332,100%,90%); /* Pink 100 */
-$color-p-200: hsl(333,100%,85%); /* Pink 200 */
-$color-p-300: hsl(332,100%,73%); /* Pink 300 */
-$color-p-400: hsl(338,100%,61%); /* Pink 400 */
-$color-p-500: hsl(333,100%,44%); /* Pink 500 */
-$color-p-600: hsl(333,100%,38%); /* Pink 600 */
-$color-p-700: hsl(332,100%,30%); /* Pink 700 */
-$color-p-800: hsl(332,100%,21%); /* Pink 800 */
-$color-p-900: hsl(333,100%,17%); /* Pink 900 */
-$color-v-50: hsl(304,68%,96%); /* Violet 50 */
-$color-v-100: hsl(304,65%,90%); /* Violet 100 */
-$color-v-200: hsl(304,65%,85%); /* Violet 200 */
-$color-v-300: hsl(304,65%,73%); /* Violet 300 */
-$color-v-400: hsl(305,65%,61%); /* Violet 400 */
-$color-v-500: hsl(304,65%,47%); /* Violet 500 */
-$color-v-600: hsl(305,65%,38%); /* Violet 600 */
-$color-v-700: hsl(304,66%,30%); /* Violet 700 */
-$color-v-800: hsl(304,66%,21%); /* Violet 800 */
-$color-v-900: hsl(305,65%,17%); /* Violet 900 */
-$color-b-50: hsl(216,90%,96%); /* Blue 50 */
-$color-b-100: hsl(216,86%,90%); /* Blue 100 */
-$color-b-200: hsl(215,87%,84%); /* Blue 200 */
-$color-b-300: hsl(215,87%,73%); /* Blue 300 */
-$color-b-400: hsl(216,87%,61%); /* Blue 400 */
-$color-b-500: hsl(215,88%,46%); /* Blue 500 */
-$color-b-600: hsl(216,87%,38%); /* Blue 600 */
-$color-b-700: hsl(216,88%,30%); /* Blue 700 */
-$color-b-800: hsl(216,87%,21%); /* Blue 800 */
-$color-b-900: hsl(215,88%,16%); /* Blue 900 */
-$color-c-50: hsl(196,71%,95%); /* Cyan 50 */
-$color-c-100: hsl(197,73%,90%); /* Cyan 100 */
-$color-c-200: hsl(197,73%,85%); /* Cyan 200 */
-$color-c-300: hsl(196,72%,73%); /* Cyan 300 */
-$color-c-400: hsl(196,73%,61%); /* Cyan 400 */
-$color-c-500: hsl(197,73%,47%); /* Cyan 500 */
-$color-c-600: hsl(196,73%,36%); /* Cyan 600 */
-$color-c-700: hsl(196,72%,30%); /* Cyan 700 */
-$color-c-800: hsl(196,73%,21%); /* Cyan 800 */
-$color-c-900: hsl(197,72%,17%); /* Cyan 900 */
-$color-t-50: hsl(156,100%,96%); /* Teal 50 */
-$color-t-100: hsl(156,100%,88%); /* Teal 100 */
-$color-t-200: hsl(155,100%,78%); /* Teal 200 */
-$color-t-300: hsl(156,100%,58%); /* Teal 300 */
-$color-t-400: hsl(156,100%,48%); /* Teal 400 */
-$color-t-500: hsl(155,100%,38%); /* Teal 500 */
-$color-t-600: hsl(155,100%,26%); /* Teal 600 */
-$color-t-700: hsl(155,100%,20%); /* Teal 700 */
-$color-t-800: hsl(155,100%,17%); /* Teal 800 */
-$color-t-900: hsl(156,100%,12%); /* Teal 900 */
-$font-heading: "Gilroy", sans-serif;
-$font-body: "Open Sans", sans-serif;
-$font-mono: "Roboto Mono", monospace;
-$font-size-h-1: 2.5rem; /* 40px */
-$font-size-h-2: 1.875rem; /* 30px */
-$font-size-h-3: 1.5rem; /* 24px */
-$font-size-body-2: 1.25rem; /* 20px */
-$font-size-body-1: 1rem; /* 16px */
-$font-size-body-0: 0.875rem; /* 14px */
+$color-black: hsl(240, 3%, 10%); // Black
+$color-white: hsl(0, 0%, 100%); // White
+$color-g-50: hsl(180, 4%, 95%); // Gray 50
+$color-g-100: hsl(210, 4%, 90%); // Gray 100
+$color-g-200: hsl(220, 4%, 85%); // Gray 200
+$color-g-300: hsl(216, 3%, 74%); // Gray 300
+$color-g-400: hsl(217, 4%, 62%); // Gray 400
+$color-g-500: hsl(216, 4%, 47%); // Gray 500
+$color-g-600: hsl(217, 4%, 38%); // Gray 600
+$color-g-700: hsl(214, 4%, 30%); // Gray 700
+$color-g-800: hsl(210, 3%, 22%); // Gray 800
+$color-g-900: hsl(220, 3%, 17%); // Gray 900
+$color-y-50: hsl(46, 90%, 96%); // Yellow 50
+$color-y-100: hsl(48, 86%, 90%); // Yellow 100
+$color-y-200: hsl(48, 87%, 84%); // Yellow 200
+$color-y-300: hsl(48, 87%, 73%); // Yellow 300
+$color-y-400: hsl(48, 87%, 61%); // Yellow 400
+$color-y-500: hsl(48, 100%, 47%); // Yellow 500
+$color-y-600: hsl(42, 100%, 47%); // Yellow 600
+$color-y-700: hsl(37, 100%, 47%); // Yellow 700
+$color-y-800: hsl(33, 100%, 47%); // Yellow 800
+$color-y-900: hsl(25, 100%, 47%); // Yellow 900
+$color-br-50: hsl(24, 50%, 96%); // Brown 50
+$color-br-100: hsl(27, 47%, 90%); // Brown 100
+$color-br-200: hsl(28, 47%, 85%); // Brown 200
+$color-br-300: hsl(28, 46%, 74%); // Brown 300
+$color-br-400: hsl(27, 47%, 62%); // Brown 400
+$color-br-500: hsl(28, 47%, 46%); // Brown 500
+$color-br-600: hsl(28, 47%, 37%); // Brown 600
+$color-br-700: hsl(27, 46%, 30%); // Brown 700
+$color-br-800: hsl(27, 46%, 21%); // Brown 800
+$color-br-900: hsl(27, 47%, 17%); // Brown 900
+$color-r-50: hsl(3, 80%, 96%); // Red 50
+$color-r-100: hsl(1, 73%, 90%); // Red 100
+$color-r-200: hsl(1, 76%, 85%); // Red 200
+$color-r-300: hsl(2, 75%, 73%); // Red 300
+$color-r-400: hsl(2, 76%, 61%); // Red 400
+$color-r-500: hsl(2, 75%, 46%); // Red 500
+$color-r-600: hsl(2, 76%, 38%); // Red 600
+$color-r-700: hsl(2, 76%, 30%); // Red 700
+$color-r-800: hsl(1, 75%, 22%); // Red 800
+$color-r-900: hsl(2, 76%, 16%); // Red 900
+$color-p-50: hsl(333, 100%, 96%); // Pink 50
+$color-p-100: hsl(332, 100%, 90%); // Pink 100
+$color-p-200: hsl(333, 100%, 85%); // Pink 200
+$color-p-300: hsl(332, 100%, 73%); // Pink 300
+$color-p-400: hsl(338, 100%, 61%); // Pink 400
+$color-p-500: hsl(333, 100%, 44%); // Pink 500
+$color-p-600: hsl(333, 100%, 38%); // Pink 600
+$color-p-700: hsl(332, 100%, 30%); // Pink 700
+$color-p-800: hsl(332, 100%, 21%); // Pink 800
+$color-p-900: hsl(333, 100%, 17%); // Pink 900
+$color-v-50: hsl(304, 68%, 96%); // Violet 50
+$color-v-100: hsl(304, 65%, 90%); // Violet 100
+$color-v-200: hsl(304, 65%, 85%); // Violet 200
+$color-v-300: hsl(304, 65%, 73%); // Violet 300
+$color-v-400: hsl(305, 65%, 61%); // Violet 400
+$color-v-500: hsl(304, 65%, 47%); // Violet 500
+$color-v-600: hsl(305, 65%, 38%); // Violet 600
+$color-v-700: hsl(304, 66%, 30%); // Violet 700
+$color-v-800: hsl(304, 66%, 21%); // Violet 800
+$color-v-900: hsl(305, 65%, 17%); // Violet 900
+$color-b-50: hsl(216, 90%, 96%); // Blue 50
+$color-b-100: hsl(216, 86%, 90%); // Blue 100
+$color-b-200: hsl(215, 87%, 84%); // Blue 200
+$color-b-300: hsl(215, 87%, 73%); // Blue 300
+$color-b-400: hsl(216, 87%, 61%); // Blue 400
+$color-b-500: hsl(215, 88%, 46%); // Blue 500
+$color-b-600: hsl(216, 87%, 38%); // Blue 600
+$color-b-700: hsl(216, 88%, 30%); // Blue 700
+$color-b-800: hsl(216, 87%, 21%); // Blue 800
+$color-b-900: hsl(215, 88%, 16%); // Blue 900
+$color-c-50: hsl(196, 71%, 95%); // Cyan 50
+$color-c-100: hsl(197, 73%, 90%); // Cyan 100
+$color-c-200: hsl(197, 73%, 85%); // Cyan 200
+$color-c-300: hsl(196, 72%, 73%); // Cyan 300
+$color-c-400: hsl(196, 73%, 61%); // Cyan 400
+$color-c-500: hsl(197, 73%, 47%); // Cyan 500
+$color-c-600: hsl(196, 73%, 36%); // Cyan 600
+$color-c-700: hsl(196, 72%, 30%); // Cyan 700
+$color-c-800: hsl(196, 73%, 21%); // Cyan 800
+$color-c-900: hsl(197, 72%, 17%); // Cyan 900
+$color-t-50: hsl(156, 100%, 96%); // Teal 50
+$color-t-100: hsl(156, 100%, 88%); // Teal 100
+$color-t-200: hsl(155, 100%, 78%); // Teal 200
+$color-t-300: hsl(156, 100%, 58%); // Teal 300
+$color-t-400: hsl(156, 100%, 48%); // Teal 400
+$color-t-500: hsl(155, 100%, 38%); // Teal 500
+$color-t-600: hsl(155, 100%, 26%); // Teal 600
+$color-t-700: hsl(155, 100%, 20%); // Teal 700
+$color-t-800: hsl(155, 100%, 17%); // Teal 800
+$color-t-900: hsl(156, 100%, 12%); // Teal 900
+$font-heading: 'Gilroy', sans-serif;
+$font-body: 'Open Sans', sans-serif;
+$font-mono: 'Roboto Mono', monospace;
+$font-size-h-1: 12.5rem; // 200px
+$font-size-h-2: 6.25rem; // 100px
+$font-size-h-3: 2.5rem; // 40px
+$font-size-h-4: 2rem; // 32px
+$font-size-h-5: 1.5rem; // 24px
+$font-size-body-2: 1.25rem; // 20px
+$font-size-body-1: 1rem; // 16px
+$font-size-body-0: 0.875rem; // 14px
 $line-height-1: 1;
-$line-height-2: 1.0666666412353516;
-$line-height-3: 1.28;
-$line-height-4: 1.4506666564941406;
-$shadow-1: 0px 0px 40px rgba(0, 0, 0, 0.10000000149011612), 0px 0px 20px rgba(0, 0, 0, 0.20000000298023224);
-$shadow-2: 0px 16px 60px rgba(0, 0, 0, 0.20000000298023224), 0px 5px 20px rgba(0, 0, 0, 0.15000000596046448);
-$spacing-1: 0.5em; /* 8px */
-$spacing-2: 1em; /* 16px */
-$spacing-3: 1.5em; /* 24px */
-$spacing-4: 2em; /* 32px */
-$spacing-5: 4em; /* 64px */
+$line-height-2: 1.28;
+$line-height-3: 1.7066667175292969;
+$line-height-4: 2.0480001831054686;
+$shadow-1: 0px 0px 24px rgba(0, 0, 0, 0.10000000149011612),
+	0px 6px 14px rgba(0, 0, 0, 0.11999999731779099);
+$shadow-2: 0px 24px 60px rgba(0, 0, 0, 0.20000000298023224),
+	0px 8px 20px rgba(0, 0, 0, 0.15000000596046448);
+$spacing-1: 0.5em; // 8px
+$spacing-2: 1em; // 16px
+$spacing-3: 1.5em; // 24px
+$spacing-4: 2em; // 32px
+$spacing-5: 4em; // 64px
 $weight-extrabold: 800;
 $weight-bold: 700;
 $weight-medium: 600;

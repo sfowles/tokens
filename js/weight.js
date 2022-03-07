@@ -1,14 +1,14 @@
 /**
  * Do not edit directly
- * Generated on Wed, 05 May 2021 19:53:37 GMT
+ * Generated on Mon, 07 Mar 2022 02:44:32 GMT
  */
 
 const weight = {
-  "extrabold": 800,
-  "bold": 700,
-  "medium": 600,
-  "regular": 400,
-  "light": 300
-}
+	extrabold: 800,
+	bold: 700,
+	medium: 600,
+	regular: 400,
+	light: 300
+};
 
 export default weight;

@@ -1,12 +1,12 @@
 /**
  * Do not edit directly
- * Generated on Wed, 05 May 2021 19:53:37 GMT
+ * Generated on Mon, 07 Mar 2022 02:44:32 GMT
  */
 
 const font = {
-  "heading": "\"Gilroy\", sans-serif",
-  "body": "\"Open Sans\", sans-serif",
-  "mono": "\"Roboto Mono\", monospace"
-}
+	heading: '"Gilroy", sans-serif',
+	body: '"Open Sans", sans-serif',
+	mono: '"Roboto Mono", monospace'
+};
 
 export default font;
