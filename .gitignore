@@ -23,6 +23,11 @@ hint-report/
 # Build generated
 dist/
 build/
+_scss/
+css/
+js/
+json/
+_raw.json
 .next
 
 # Compressed archives

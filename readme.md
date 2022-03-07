@@ -12,7 +12,7 @@ Extracts design tokens for colors, typography (line heights, font sizes, font fa
 Design tokens are currently extracted in the following formats:
 
 - JSON objects
-- ES6 modules
+- JS/TS modules
 - SCSS variables
 - CSS3 variables
 
@@ -35,7 +35,7 @@ It's very easy to include design tokens in your projects using any of the follow
 - Import the tokens into your project using `@import '~@fowles/tokens/_scss/variables';`
 - Now you have access to variables such as `$color-white` and `$color-b-500`
 
-## ES6 Modules (Recommeded for Styled Components)
+## JS/TS Modules (Recommeded for Styled Components)
 
 - Install the latest tokens package from NPM as a dev dependency `npm i @fowles/tokens --save-dev` ([https://www.npmjs.com/package/@fowles/tokens](https://www.npmjs.com/package/@fowles/tokens))
 - Import the tokens into your project using (ex: `import color from '@fowles/tokens/js/color';`)
@@ -46,4 +46,4 @@ It's very easy to include design tokens in your projects using any of the follow
 - `./_scss` will contain a SCSS variables token file
 - `./css` will contain a CSS3 variables token file
 - `./json` will contain JSON object token files
-- `./js` will contain ES6 module token files
+- `./js` will contain JS and TS module token files
