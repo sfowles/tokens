@@ -1,0 +1,832 @@
+{
+	"color": {
+		"black": {
+			"value": "hsl(240,3%,10%)",
+			"type": "color",
+			"group": "Grayscale",
+			"comment": "Black",
+			"ratio": "17.55:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		},
+		"white": {
+			"value": "hsl(0,0%,100%)",
+			"type": "color",
+			"group": "Grayscale",
+			"comment": "White",
+			"ratio": "17.55:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"g50": {
+			"value": "hsl(180,4%,95%)",
+			"type": "color",
+			"group": "Grayscale",
+			"comment": "Gray 50",
+			"ratio": "16.07:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"g100": {
+			"value": "hsl(210,4%,90%)",
+			"type": "color",
+			"group": "Grayscale",
+			"comment": "Gray 100",
+			"ratio": "12.52:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"g200": {
+			"value": "hsl(220,4%,85%)",
+			"type": "color",
+			"group": "Grayscale",
+			"comment": "Gray 200",
+			"ratio": "12.42:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"g300": {
+			"value": "hsl(216,3%,74%)",
+			"type": "color",
+			"group": "Grayscale",
+			"comment": "Gray 300",
+			"ratio": "9.32:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"g400": {
+			"value": "hsl(217,4%,62%)",
+			"type": "color",
+			"group": "Grayscale",
+			"comment": "Gray 400",
+			"ratio": "6.53:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AA"
+		},
+		"g500": {
+			"value": "hsl(216,4%,47%)",
+			"type": "color",
+			"group": "Grayscale",
+			"comment": "Gray 500",
+			"ratio": "4.5:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AA"
+		},
+		"g600": {
+			"value": "hsl(217,4%,38%)",
+			"type": "color",
+			"group": "Grayscale",
+			"comment": "Gray 600",
+			"ratio": "6.21:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AA"
+		},
+		"g700": {
+			"value": "hsl(214,4%,30%)",
+			"type": "color",
+			"group": "Grayscale",
+			"comment": "Gray 700",
+			"ratio": "8.63:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		},
+		"g800": {
+			"value": "hsl(210,3%,22%)",
+			"type": "color",
+			"group": "Grayscale",
+			"comment": "Gray 800",
+			"ratio": "11.59:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		},
+		"g900": {
+			"value": "hsl(220,3%,17%)",
+			"type": "color",
+			"group": "Grayscale",
+			"comment": "Gray 900",
+			"ratio": "14.17:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		},
+		"y50": {
+			"value": "hsl(46,90%,96%)",
+			"type": "color",
+			"group": "Yellow",
+			"comment": "Yellow 50",
+			"ratio": "20.09:1",
+			"against": "hsl(0,0%,0%)",
+			"compliance": "AAA"
+		},
+		"y100": {
+			"value": "hsl(48,86%,90%)",
+			"type": "color",
+			"group": "Yellow",
+			"comment": "Yellow 100",
+			"ratio": "19.03:1",
+			"against": "hsl(0,0%,0%)",
+			"compliance": "AAA"
+		},
+		"y200": {
+			"value": "hsl(48,87%,84%)",
+			"type": "color",
+			"group": "Yellow",
+			"comment": "Yellow 200",
+			"ratio": "17.86:1",
+			"against": "hsl(0,0%,0%)",
+			"compliance": "AAA"
+		},
+		"y300": {
+			"value": "hsl(48,87%,73%)",
+			"type": "color",
+			"group": "Yellow",
+			"comment": "Yellow 300",
+			"ratio": "15.93:1",
+			"against": "hsl(0,0%,0%)",
+			"compliance": "AAA"
+		},
+		"y400": {
+			"value": "hsl(48,87%,61%)",
+			"type": "color",
+			"group": "Yellow",
+			"comment": "Yellow 400",
+			"ratio": "14.02:1",
+			"against": "hsl(0,0%,0%)",
+			"compliance": "AAA"
+		},
+		"y500": {
+			"value": "hsl(48,100%,47%)",
+			"type": "color",
+			"group": "Yellow",
+			"comment": "Yellow 500",
+			"ratio": "10.56:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"y600": {
+			"value": "hsl(42,100%,47%)",
+			"type": "color",
+			"group": "Yellow",
+			"comment": "Yellow 600",
+			"ratio": "8.89:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"y700": {
+			"value": "hsl(37,100%,47%)",
+			"type": "color",
+			"group": "Yellow",
+			"comment": "Yellow 700",
+			"ratio": "7.8:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"y800": {
+			"value": "hsl(33,100%,47%)",
+			"type": "color",
+			"group": "Yellow",
+			"comment": "Yellow 800",
+			"ratio": "6.93:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AA"
+		},
+		"y900": {
+			"value": "hsl(25,100%,47%)",
+			"type": "color",
+			"group": "Yellow",
+			"comment": "Yellow 900",
+			"ratio": "5.67:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AA"
+		},
+		"br50": {
+			"value": "hsl(24,50%,96%)",
+			"type": "color",
+			"group": "Brown",
+			"comment": "Brown 50",
+			"ratio": "14.33:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"br100": {
+			"value": "hsl(27,47%,90%)",
+			"type": "color",
+			"group": "Brown",
+			"comment": "Brown 100",
+			"ratio": "12.86:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"br200": {
+			"value": "hsl(28,47%,85%)",
+			"type": "color",
+			"group": "Brown",
+			"comment": "Brown 200",
+			"ratio": "11.29:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"br300": {
+			"value": "hsl(28,46%,74%)",
+			"type": "color",
+			"group": "Brown",
+			"comment": "Brown 300",
+			"ratio": "8.66:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"br400": {
+			"value": "hsl(27,47%,62%)",
+			"type": "color",
+			"group": "Brown",
+			"comment": "Brown 400",
+			"ratio": "6.32:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AA"
+		},
+		"br500": {
+			"value": "hsl(28,47%,46%)",
+			"type": "color",
+			"group": "Brown",
+			"comment": "Brown 500",
+			"ratio": "4.52:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AA"
+		},
+		"br600": {
+			"value": "hsl(28,47%,37%)",
+			"type": "color",
+			"group": "Brown",
+			"comment": "Brown 600",
+			"ratio": "5.52:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AA"
+		},
+		"br700": {
+			"value": "hsl(27,46%,30%)",
+			"type": "color",
+			"group": "Brown",
+			"comment": "Brown 700",
+			"ratio": "7.77:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		},
+		"br800": {
+			"value": "hsl(27,46%,21%)",
+			"type": "color",
+			"group": "Brown",
+			"comment": "Brown 800",
+			"ratio": "11.02:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		},
+		"br900": {
+			"value": "hsl(27,47%,17%)",
+			"type": "color",
+			"group": "Brown",
+			"comment": "Brown 900",
+			"ratio": "13.44:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		},
+		"r50": {
+			"value": "hsl(3,80%,96%)",
+			"type": "color",
+			"group": "Red",
+			"comment": "Red 50",
+			"ratio": "15.57:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"r100": {
+			"value": "hsl(1,73%,90%)",
+			"type": "color",
+			"group": "Red",
+			"comment": "Red 100",
+			"ratio": "13.23:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"r200": {
+			"value": "hsl(1,76%,85%)",
+			"type": "color",
+			"group": "Red",
+			"comment": "Red 200",
+			"ratio": "10.8:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"r300": {
+			"value": "hsl(2,75%,73%)",
+			"type": "color",
+			"group": "Red",
+			"comment": "Red 300",
+			"ratio": "7.44:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"r400": {
+			"value": "hsl(2,76%,61%)",
+			"type": "color",
+			"group": "Red",
+			"comment": "Red 400",
+			"ratio": "5:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AA"
+		},
+		"r500": {
+			"value": "hsl(2,75%,46%)",
+			"type": "color",
+			"group": "Red",
+			"comment": "Red 500",
+			"ratio": "5.29:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AA"
+		},
+		"r600": {
+			"value": "hsl(2,76%,38%)",
+			"type": "color",
+			"group": "Red",
+			"comment": "Red 600",
+			"ratio": "7.21:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		},
+		"r700": {
+			"value": "hsl(2,76%,30%)",
+			"type": "color",
+			"group": "Red",
+			"comment": "Red 700",
+			"ratio": "9.75:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		},
+		"r800": {
+			"value": "hsl(1,75%,22%)",
+			"type": "color",
+			"group": "Red",
+			"comment": "Red 800",
+			"ratio": "13.03:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		},
+		"r900": {
+			"value": "hsl(2,76%,16%)",
+			"type": "color",
+			"group": "Red",
+			"comment": "Red 900",
+			"ratio": "15.33:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		},
+		"p50": {
+			"value": "hsl(333,100%,96%)",
+			"type": "color",
+			"group": "Pink",
+			"comment": "Pink 50",
+			"ratio": "15.41:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"p100": {
+			"value": "hsl(332,100%,90%)",
+			"type": "color",
+			"group": "Pink",
+			"comment": "Pink 100",
+			"ratio": "12.96:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"p200": {
+			"value": "hsl(333,100%,85%)",
+			"type": "color",
+			"group": "Pink",
+			"comment": "Pink 200",
+			"ratio": "10.58:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"p300": {
+			"value": "hsl(332,100%,73%)",
+			"type": "color",
+			"group": "Pink",
+			"comment": "Pink 300",
+			"ratio": "7.28:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"p400": {
+			"value": "hsl(338,100%,61%)",
+			"type": "color",
+			"group": "Pink",
+			"comment": "Pink 400",
+			"ratio": "5.22:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AA"
+		},
+		"p500": {
+			"value": "hsl(333,100%,44%)",
+			"type": "color",
+			"group": "Pink",
+			"comment": "Pink 500",
+			"ratio": "4.62:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AA"
+		},
+		"p600": {
+			"value": "hsl(333,100%,38%)",
+			"type": "color",
+			"group": "Pink",
+			"comment": "Pink 600",
+			"ratio": "6.11:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AA"
+		},
+		"p700": {
+			"value": "hsl(332,100%,30%)",
+			"type": "color",
+			"group": "Pink",
+			"comment": "Pink 700",
+			"ratio": "8.6:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		},
+		"p800": {
+			"value": "hsl(332,100%,21%)",
+			"type": "color",
+			"group": "Pink",
+			"comment": "Pink 800",
+			"ratio": "12.09:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		},
+		"p900": {
+			"value": "hsl(333,100%,17%)",
+			"type": "color",
+			"group": "Pink",
+			"comment": "Pink 900",
+			"ratio": "14.63:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		},
+		"v50": {
+			"value": "hsl(304,68%,96%)",
+			"type": "color",
+			"group": "Violet",
+			"comment": "Violet 50",
+			"ratio": "15.78:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"v100": {
+			"value": "hsl(304,65%,90%)",
+			"type": "color",
+			"group": "Violet",
+			"comment": "Violet 100",
+			"ratio": "13.54:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"v200": {
+			"value": "hsl(304,65%,85%)",
+			"type": "color",
+			"group": "Violet",
+			"comment": "Violet 200",
+			"ratio": "11.32:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"v300": {
+			"value": "hsl(304,65%,73%)",
+			"type": "color",
+			"group": "Violet",
+			"comment": "Violet 300",
+			"ratio": "7.99:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"v400": {
+			"value": "hsl(305,65%,61%)",
+			"type": "color",
+			"group": "Violet",
+			"comment": "Violet 400",
+			"ratio": "5.55:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AA"
+		},
+		"v500": {
+			"value": "hsl(304,65%,47%)",
+			"type": "color",
+			"group": "Violet",
+			"comment": "Violet 500",
+			"ratio": "4.71:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AA"
+		},
+		"v600": {
+			"value": "hsl(305,65%,38%)",
+			"type": "color",
+			"group": "Violet",
+			"comment": "Violet 600",
+			"ratio": "6.61:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AA"
+		},
+		"v700": {
+			"value": "hsl(304,66%,30%)",
+			"type": "color",
+			"group": "Violet",
+			"comment": "Violet 700",
+			"ratio": "9.06:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		},
+		"v800": {
+			"value": "hsl(304,66%,21%)",
+			"type": "color",
+			"group": "Violet",
+			"comment": "Violet 800",
+			"ratio": "12.38:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		},
+		"v900": {
+			"value": "hsl(305,65%,17%)",
+			"type": "color",
+			"group": "Violet",
+			"comment": "Violet 900",
+			"ratio": "14.73:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		},
+		"b50": {
+			"value": "hsl(216,90%,96%)",
+			"type": "color",
+			"group": "Blue",
+			"comment": "Blue 50",
+			"ratio": "15.73:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"b100": {
+			"value": "hsl(216,86%,90%)",
+			"type": "color",
+			"group": "Blue",
+			"comment": "Blue 100",
+			"ratio": "13.62:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"b200": {
+			"value": "hsl(215,87%,84%)",
+			"type": "color",
+			"group": "Blue",
+			"comment": "Blue 200",
+			"ratio": "11.37:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"b300": {
+			"value": "hsl(215,87%,73%)",
+			"type": "color",
+			"group": "Blue",
+			"comment": "Blue 300",
+			"ratio": "8:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"b400": {
+			"value": "hsl(216,87%,61%)",
+			"type": "color",
+			"group": "Blue",
+			"comment": "Blue 400",
+			"ratio": "5.33:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AA"
+		},
+		"b500": {
+			"value": "hsl(215,88%,46%)",
+			"type": "color",
+			"group": "Blue",
+			"comment": "Blue 500",
+			"ratio": "5.39:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AA"
+		},
+		"b600": {
+			"value": "hsl(216,87%,38%)",
+			"type": "color",
+			"group": "Blue",
+			"comment": "Blue 600",
+			"ratio": "7.39:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		},
+		"b700": {
+			"value": "hsl(216,88%,30%)",
+			"type": "color",
+			"group": "Blue",
+			"comment": "Blue 700",
+			"ratio": "9.88:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		},
+		"b800": {
+			"value": "hsl(216,87%,21%)",
+			"type": "color",
+			"group": "Blue",
+			"comment": "Blue 800",
+			"ratio": "13.09:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		},
+		"b900": {
+			"value": "hsl(215,88%,16%)",
+			"type": "color",
+			"group": "Blue",
+			"comment": "Blue 900",
+			"ratio": "15.24:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		},
+		"c50": {
+			"value": "hsl(196,71%,95%)",
+			"type": "color",
+			"group": "Cyan",
+			"comment": "Cyan 50",
+			"ratio": "16.24:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"c100": {
+			"value": "hsl(197,73%,90%)",
+			"type": "color",
+			"group": "Cyan",
+			"comment": "Cyan 100",
+			"ratio": "14.71:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"c200": {
+			"value": "hsl(197,73%,85%)",
+			"type": "color",
+			"group": "Cyan",
+			"comment": "Cyan 200",
+			"ratio": "13.11:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"c300": {
+			"value": "hsl(196,72%,73%)",
+			"type": "color",
+			"group": "Cyan",
+			"comment": "Cyan 300",
+			"ratio": "10.49:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"c400": {
+			"value": "hsl(196,73%,61%)",
+			"type": "color",
+			"group": "Cyan",
+			"comment": "Cyan 400",
+			"ratio": "8.21:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"c500": {
+			"value": "hsl(197,73%,47%)",
+			"type": "color",
+			"group": "Cyan",
+			"comment": "Cyan 500",
+			"ratio": "5.76:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AA"
+		},
+		"c600": {
+			"value": "hsl(196,73%,36%)",
+			"type": "color",
+			"group": "Cyan",
+			"comment": "Cyan 600",
+			"ratio": "4.68:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AA"
+		},
+		"c700": {
+			"value": "hsl(196,72%,30%)",
+			"type": "color",
+			"group": "Cyan",
+			"comment": "Cyan 700",
+			"ratio": "6.5:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AA"
+		},
+		"c800": {
+			"value": "hsl(196,73%,21%)",
+			"type": "color",
+			"group": "Cyan",
+			"comment": "Cyan 800",
+			"ratio": "9.66:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		},
+		"c900": {
+			"value": "hsl(197,72%,17%)",
+			"type": "color",
+			"group": "Cyan",
+			"comment": "Cyan 900",
+			"ratio": "12.33:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		},
+		"t50": {
+			"value": "hsl(156,100%,96%)",
+			"type": "color",
+			"group": "Teal",
+			"comment": "Teal 50",
+			"ratio": "16.86:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"t100": {
+			"value": "hsl(156,100%,88%)",
+			"type": "color",
+			"group": "Teal",
+			"comment": "Teal 100",
+			"ratio": "15.67:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"t200": {
+			"value": "hsl(155,100%,78%)",
+			"type": "color",
+			"group": "Teal",
+			"comment": "Teal 200",
+			"ratio": "14.53:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"t300": {
+			"value": "hsl(156,100%,58%)",
+			"type": "color",
+			"group": "Teal",
+			"comment": "Teal 300",
+			"ratio": "13.35:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"t400": {
+			"value": "hsl(156,100%,48%)",
+			"type": "color",
+			"group": "Teal",
+			"comment": "Teal 400",
+			"ratio": "12.08:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"t500": {
+			"value": "hsl(155,100%,38%)",
+			"type": "color",
+			"group": "Teal",
+			"comment": "Teal 500",
+			"ratio": "7.49:1",
+			"against": "hsl(240,3%,10%)",
+			"compliance": "AAA"
+		},
+		"t600": {
+			"value": "hsl(155,100%,26%)",
+			"type": "color",
+			"group": "Teal",
+			"comment": "Teal 600",
+			"ratio": "4.72:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		},
+		"t700": {
+			"value": "hsl(155,100%,20%)",
+			"type": "color",
+			"group": "Teal",
+			"comment": "Teal 700",
+			"ratio": "7.07:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		},
+		"t800": {
+			"value": "hsl(155,100%,17%)",
+			"type": "color",
+			"group": "Teal",
+			"comment": "Teal 800",
+			"ratio": "8.7:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		},
+		"t900": {
+			"value": "hsl(156,100%,12%)",
+			"type": "color",
+			"group": "Teal",
+			"comment": "Teal 900",
+			"ratio": "11.56:1",
+			"against": "hsl(0,0%,100%)",
+			"compliance": "AAA"
+		}
+	}
+}
