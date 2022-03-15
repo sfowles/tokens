@@ -1,11 +1,12 @@
 /**
  * Do not edit directly
- * Generated on Mon, 07 Mar 2022 03:24:03 GMT
+ * Generated on Tue, 15 Mar 2022 03:37:39 GMT
  */
 
 const borderRadius = {
 	'1': '4px',
-	'2': '8px'
+	'2': '8px',
+	'3': '16px'
 };
 
 export default borderRadius;

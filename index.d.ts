@@ -1,4 +1,4 @@
-declare module '@fowles/design-tokens/';
+declare module '@fowles/tokens/';
 
 import borderRadius from './js/borderRadius';
 import borderSize from './js/borderSize';

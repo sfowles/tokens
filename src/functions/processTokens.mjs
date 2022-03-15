@@ -16,7 +16,14 @@ export function processTokens(sheet, name, format) {
 		let processedTokens = undefined;
 
 		// Design tokens
-		if (_name === 'c' || _name === 'color' || _name === 'colour' || _name === 'colors' || _name === 'colours' || _name === 'brandcolor') {
+		if (
+			_name === 'c' ||
+			_name === 'color' ||
+			_name === 'colour' ||
+			_name === 'colors' ||
+			_name === 'colours' ||
+			_name === 'brandcolor'
+		) {
 			processedTokens = setupColorTokens(sheet, format);
 		}
 		if (_name === 'spacing' || _name === 'spacings') {

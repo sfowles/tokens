@@ -1,11 +1,11 @@
 {
 	"font": {
 		"heading": {
-			"value": "\"Gilroy\", sans-serif",
+			"value": "\"Lora\", serif",
 			"type": "typography"
 		},
 		"body": {
-			"value": "\"Open Sans\", sans-serif",
+			"value": "\"Poppins\", sans-serif",
 			"type": "typography"
 		},
 		"mono": {

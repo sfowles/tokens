@@ -16,14 +16,14 @@ export function writeTokens(tokens, format) {
 					writeFile(processedToken, `js`, 'color', true, format);
 				} else if (tokenName == 'brandColor') {
 					writeFile(processedToken, `js`, 'brand', true, format);
-				} else {
+				} else if (token.name !== '--legend--') {
 					writeFile(processedToken, `js`, tokenName, true, format);
 				}
 			} else if (tokenName == 'color') {
 				writeFile(processedToken, `${format}`, 'color', true, format);
 			} else if (tokenName == 'brandColor') {
 				writeFile(processedToken, `${format}`, 'brand', true, format);
-			} else {
+			} else if (token.name !== '--legend--') {
 				writeFile(processedToken, `${format}`, tokenName, true, format);
 			}
 		});

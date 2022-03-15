@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 07 Mar 2022 03:24:03 GMT
+ * Generated on Tue, 15 Mar 2022 03:37:39 GMT
  */
 
 declare module '@fowles/tokens/js/color';

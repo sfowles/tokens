@@ -12,7 +12,7 @@ export function createPage(figmaPages) {
 		figmaPages.forEach(page => {
 			if (!isMatchFound) {
 				if (
-					findShortenedNameMatch(page.name, 'designtokens') &&
+					findShortenedNameMatch(page.name, 'generated-do not edit-') &&
 					hasCreatedDesignTokensPage === false
 				) {
 					isMatchFound = true;
@@ -23,7 +23,7 @@ export function createPage(figmaPages) {
 			function foundMatch(page) {
 				const fixedPageName = page.name.toLowerCase().replace(' ', '');
 
-				if (fixedPageName === 'designtokens') {
+				if (fixedPageName === 'generated-do not edit-') {
 					hasCreatedDesignTokensPage = true;
 					correctPage = page;
 				}

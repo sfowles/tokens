@@ -13,15 +13,14 @@ export function setupFontTokens(frame, format) {
 			let fontName = type.style.fontFamily;
 			let fontType = 'sans-serif';
 
-			if (fontName.includes('Gilroy'))
-				fontName = 'Gilroy';
+			if (fontName.includes('Lora')) fontType = 'serif';
 
 			if (fontName.includes('Mono') || fontName.includes('mono')) {
 				fontType = 'monospace';
 			}
 
 			if (format == 'js') {
-				font = '"' + fontName + '", ' + fontType
+				font = '"' + fontName + '", ' + fontType;
 			} else {
 				font = {
 					value: '"' + fontName + '", ' + fontType,
