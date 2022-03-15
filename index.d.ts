@@ -2,7 +2,6 @@ declare module '@fowles/tokens/';
 
 import borderRadius from './js/borderRadius';
 import borderSize from './js/borderSize';
-import brand from './js/brand';
 import breakpoint from './js/breakpoint';
 import color from './js/color';
 import font from './js/font';
@@ -16,7 +15,6 @@ import z from './js/z';
 export {
 	borderRadius,
 	borderSize,
-	brand,
 	breakpoint,
 	color,
 	font,

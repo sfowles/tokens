@@ -1,6 +1,5 @@
 import borderRadius from './js/borderRadius';
 import borderSize from './js/borderSize';
-import brand from './js/brand';
 import breakpoint from './js/breakpoint';
 import color from './js/color';
 import font from './js/font';
@@ -12,16 +11,15 @@ import weight from './js/weight';
 import z from './js/z';
 
 export {
-    borderRadius,
-    borderSize,
-    brand,
-    breakpoint,
-    color,
-    font,
-    fontSize,
-    lineHeight,
-    shadow,
-    spacing,
-    weight,
-    z,
-}
+	borderRadius,
+	borderSize,
+	breakpoint,
+	color,
+	font,
+	fontSize,
+	lineHeight,
+	shadow,
+	spacing,
+	weight,
+	z
+};
