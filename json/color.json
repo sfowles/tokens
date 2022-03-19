@@ -1,14 +1,5 @@
 {
 	"color": {
-		"white": {
-			"value": "hsl(0,0%,100%)",
-			"type": "color",
-			"group": "Grayscale",
-			"comment": "White",
-			"contrast ratio": "6.21:1",
-			"contrast color": "hsl(217,4%,38%)",
-			"wcag compliance": "AA"
-		},
 		"black": {
 			"value": "hsl(240,3%,10%)",
 			"type": "color",
@@ -16,6 +7,15 @@
 			"comment": "Black",
 			"contrast ratio": "6.52:1",
 			"contrast color": "hsl(217,4%,62%)",
+			"wcag compliance": "AA"
+		},
+		"white": {
+			"value": "hsl(0,0%,100%)",
+			"type": "color",
+			"group": "Grayscale",
+			"comment": "White",
+			"contrast ratio": "6.21:1",
+			"contrast color": "hsl(217,4%,38%)",
 			"wcag compliance": "AA"
 		},
 		"g50": {
