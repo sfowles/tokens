@@ -1,11 +1,11 @@
 /**
  * Do not edit directly
- * Generated on Wed, 16 Mar 2022 09:43:52 GMT
+ * Generated on Sat, 19 Mar 2022 00:02:29 GMT
  */
 
 const color = {
-	black: 'hsl(240,3%,10%)',
 	white: 'hsl(0,0%,100%)',
+	black: 'hsl(240,3%,10%)',
 	g50: 'hsl(180,4%,95%)',
 	g100: 'hsl(210,4%,90%)',
 	g200: 'hsl(220,4%,85%)',
