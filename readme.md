@@ -33,7 +33,7 @@ It's very easy to include design tokens in your projects using any of the follow
 
 - Install the latest tokens package from NPM as a dev dependency `npm i @fowles/tokens --save-dev` ([https://www.npmjs.com/package/@fowles/tokens](https://www.npmjs.com/package/@fowles/tokens))
 - Import the tokens into your project using `@import '~@fowles/tokens/_scss/variables';`
-- Now you have access to variables such as `$white` and `$b-500`
+- Now you have access to variables such as `$white` and `$b500`
 
 ## JS/TS Modules (Recommeded for Styled Components)
 
