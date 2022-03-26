@@ -1,6 +1,6 @@
 {
 	"name": "@fowles/tokens",
-	"version": "5.0.1",
+	"version": "5.0.2",
 	"description": "Chopped and extended Figmagic coupled with Amazon Style Dictionary.",
 	"author": "Mikael Vesavuori, AWS Team, Scott Fowles",
 	"main": "./index.mjs",
