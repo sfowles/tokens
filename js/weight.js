@@ -1,14 +1,14 @@
 /**
  * Do not edit directly
- * Generated on Sat, 19 Mar 2022 00:07:48 GMT
+ * Generated on Tue, 22 Mar 2022 15:22:10 GMT
  */
 
 const weight = {
-	extrabold: 800,
-	bold: 700,
-	medium: 600,
+	light: 300,
 	regular: 400,
-	light: 300
+	medium: 600,
+	bold: 700,
+	extrabold: 800
 };
 
 export default weight;

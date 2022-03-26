@@ -6,6 +6,7 @@ import { _rgbToHsl } from './rgbToHsl.mjs';
 export function setupColorTokens(colorFrame, format) {
 	if (colorFrame) {
 		let colors = {},
+			clr,
 			colorString,
 			groupName,
 			devName,
@@ -36,6 +37,11 @@ export function setupColorTokens(colorFrame, format) {
 					contrastR = color.children[1].fills[0].color.r;
 					contrastG = color.children[1].fills[0].color.g;
 					contrastB = color.children[1].fills[0].color.b;
+					clr = _rgbToHsl(`rgb(
+						${roundColorValue(r, 255)},
+						${roundColorValue(g, 255)},
+						${roundColorValue(b, 255)}
+					)`);
 					contrastColor = _rgbToHsl(`rgb(
 						${roundColorValue(contrastR, 255)},
 						${roundColorValue(contrastG, 255)},
@@ -43,18 +49,10 @@ export function setupColorTokens(colorFrame, format) {
 					)`);
 
 					if (format == 'js') {
-						colorString = _rgbToHsl(`rgb(
-							${roundColorValue(r, 255)},
-							${roundColorValue(g, 255)},
-							${roundColorValue(b, 255)}
-						)`);
+						colorString = clr;
 					} else {
 						colorString = {
-							value: _rgbToHsl(`rgb(
-								${roundColorValue(r, 255)},
-								${roundColorValue(g, 255)},
-								${roundColorValue(b, 255)}
-							)`),
+							value: clr,
 							type: 'color',
 							group: groupName,
 							comment: name,

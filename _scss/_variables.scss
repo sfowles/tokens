@@ -1,117 +1,117 @@
 // Do not edit directly
-// Generated on Sat, 19 Mar 2022 00:07:49 GMT
+// Generated on Tue, 22 Mar 2022 15:22:10 GMT
 
 $border-radius-1: 4px;
 $border-radius-2: 8px;
 $border-radius-3: 16px;
 $border-size-1: 1px;
 $border-size-2: 2px;
-$breakpoint-desktop: 1200px;
-$breakpoint-tablet: 1050px;
-$breakpoint-phone: 750px;
-$color-black: hsl(240, 3%, 10%); // Black
-$color-white: hsl(0, 0%, 100%); // White
-$color-g-50: hsl(180, 4%, 95%); // Gray 50
-$color-g-100: hsl(210, 4%, 90%); // Gray 100
-$color-g-200: hsl(220, 4%, 85%); // Gray 200
-$color-g-300: hsl(216, 3%, 74%); // Gray 300
-$color-g-400: hsl(217, 4%, 62%); // Gray 400
-$color-g-500: hsl(216, 4%, 47%); // Gray 500
-$color-g-600: hsl(217, 4%, 38%); // Gray 600
-$color-g-700: hsl(214, 4%, 30%); // Gray 700
-$color-g-800: hsl(210, 3%, 22%); // Gray 800
-$color-g-900: hsl(220, 3%, 17%); // Gray 900
-$color-y-50: hsl(46, 90%, 96%); // Yellow 50
-$color-y-100: hsl(48, 86%, 90%); // Yellow 100
-$color-y-200: hsl(48, 87%, 84%); // Yellow 200
-$color-y-300: hsl(48, 87%, 73%); // Yellow 300
-$color-y-400: hsl(48, 87%, 61%); // Yellow 400
-$color-y-500: hsl(48, 100%, 47%); // Yellow 500
-$color-y-600: hsl(42, 100%, 47%); // Yellow 600
-$color-y-700: hsl(37, 100%, 47%); // Yellow 700
-$color-y-800: hsl(33, 100%, 47%); // Yellow 800
-$color-y-900: hsl(25, 100%, 47%); // Yellow 900
-$color-br-50: hsl(24, 50%, 96%); // Brown 50
-$color-br-100: hsl(27, 47%, 90%); // Brown 100
-$color-br-200: hsl(28, 47%, 85%); // Brown 200
-$color-br-300: hsl(28, 46%, 74%); // Brown 300
-$color-br-400: hsl(27, 47%, 62%); // Brown 400
-$color-br-500: hsl(28, 47%, 46%); // Brown 500
-$color-br-600: hsl(28, 47%, 37%); // Brown 600
-$color-br-700: hsl(27, 46%, 30%); // Brown 700
-$color-br-800: hsl(27, 46%, 21%); // Brown 800
-$color-br-900: hsl(27, 47%, 17%); // Brown 900
-$color-r-50: hsl(3, 80%, 96%); // Red 50
-$color-r-100: hsl(1, 73%, 90%); // Red 100
-$color-r-200: hsl(1, 76%, 85%); // Red 200
-$color-r-300: hsl(2, 75%, 73%); // Red 300
-$color-r-400: hsl(2, 76%, 61%); // Red 400
-$color-r-500: hsl(2, 75%, 46%); // Red 500
-$color-r-600: hsl(2, 76%, 38%); // Red 600
-$color-r-700: hsl(2, 76%, 30%); // Red 700
-$color-r-800: hsl(1, 75%, 22%); // Red 800
-$color-r-900: hsl(2, 76%, 16%); // Red 900
-$color-p-50: hsl(333, 100%, 96%); // Pink 50
-$color-p-100: hsl(332, 100%, 90%); // Pink 100
-$color-p-200: hsl(333, 100%, 85%); // Pink 200
-$color-p-300: hsl(332, 100%, 73%); // Pink 300
-$color-p-400: hsl(338, 100%, 61%); // Pink 400
-$color-p-500: hsl(333, 100%, 44%); // Pink 500
-$color-p-600: hsl(333, 100%, 38%); // Pink 600
-$color-p-700: hsl(332, 100%, 30%); // Pink 700
-$color-p-800: hsl(332, 100%, 21%); // Pink 800
-$color-p-900: hsl(333, 100%, 17%); // Pink 900
-$color-v-50: hsl(304, 68%, 96%); // Violet 50
-$color-v-100: hsl(304, 65%, 90%); // Violet 100
-$color-v-200: hsl(304, 65%, 85%); // Violet 200
-$color-v-300: hsl(304, 65%, 73%); // Violet 300
-$color-v-400: hsl(305, 65%, 61%); // Violet 400
-$color-v-500: hsl(304, 65%, 47%); // Violet 500
-$color-v-600: hsl(305, 65%, 38%); // Violet 600
-$color-v-700: hsl(304, 66%, 30%); // Violet 700
-$color-v-800: hsl(304, 66%, 21%); // Violet 800
-$color-v-900: hsl(305, 65%, 17%); // Violet 900
-$color-b-50: hsl(216, 90%, 96%); // Blue 50
-$color-b-100: hsl(216, 86%, 90%); // Blue 100
-$color-b-200: hsl(215, 87%, 84%); // Blue 200
-$color-b-300: hsl(215, 87%, 73%); // Blue 300
-$color-b-400: hsl(216, 87%, 61%); // Blue 400
-$color-b-500: hsl(215, 88%, 46%); // Blue 500
-$color-b-600: hsl(216, 87%, 38%); // Blue 600
-$color-b-700: hsl(216, 88%, 30%); // Blue 700
-$color-b-800: hsl(216, 87%, 21%); // Blue 800
-$color-b-900: hsl(215, 88%, 16%); // Blue 900
-$color-c-50: hsl(196, 71%, 95%); // Cyan 50
-$color-c-100: hsl(197, 73%, 90%); // Cyan 100
-$color-c-200: hsl(197, 73%, 85%); // Cyan 200
-$color-c-300: hsl(196, 72%, 73%); // Cyan 300
-$color-c-400: hsl(196, 73%, 61%); // Cyan 400
-$color-c-500: hsl(197, 73%, 47%); // Cyan 500
-$color-c-600: hsl(196, 73%, 36%); // Cyan 600
-$color-c-700: hsl(196, 72%, 30%); // Cyan 700
-$color-c-800: hsl(196, 73%, 21%); // Cyan 800
-$color-c-900: hsl(197, 72%, 17%); // Cyan 900
-$color-t-50: hsl(156, 100%, 96%); // Teal 50
-$color-t-100: hsl(156, 100%, 88%); // Teal 100
-$color-t-200: hsl(155, 100%, 78%); // Teal 200
-$color-t-300: hsl(156, 100%, 58%); // Teal 300
-$color-t-400: hsl(156, 100%, 48%); // Teal 400
-$color-t-500: hsl(155, 100%, 38%); // Teal 500
-$color-t-600: hsl(155, 100%, 26%); // Teal 600
-$color-t-700: hsl(155, 100%, 20%); // Teal 700
-$color-t-800: hsl(155, 100%, 17%); // Teal 800
-$color-t-900: hsl(156, 100%, 12%); // Teal 900
+$desktop: 1200px;
+$tablet: 1050px;
+$phone: 750px;
+$black: hsl(240, 3%, 10%); // Black
+$white: hsl(0, 0%, 100%); // White
+$g50: hsl(180, 4%, 95%); // Gray 50
+$g100: hsl(210, 4%, 90%); // Gray 100
+$g200: hsl(220, 4%, 85%); // Gray 200
+$g300: hsl(216, 3%, 74%); // Gray 300
+$g400: hsl(217, 4%, 62%); // Gray 400
+$g500: hsl(216, 4%, 47%); // Gray 500
+$g600: hsl(217, 4%, 38%); // Gray 600
+$g700: hsl(214, 4%, 30%); // Gray 700
+$g800: hsl(210, 3%, 22%); // Gray 800
+$g900: hsl(220, 3%, 17%); // Gray 900
+$y50: hsl(46, 90%, 96%); // Yellow 50
+$y100: hsl(48, 86%, 90%); // Yellow 100
+$y200: hsl(48, 87%, 84%); // Yellow 200
+$y300: hsl(48, 87%, 73%); // Yellow 300
+$y400: hsl(48, 87%, 61%); // Yellow 400
+$y500: hsl(48, 100%, 47%); // Yellow 500
+$y600: hsl(42, 100%, 47%); // Yellow 600
+$y700: hsl(37, 100%, 47%); // Yellow 700
+$y800: hsl(33, 100%, 47%); // Yellow 800
+$y900: hsl(25, 100%, 47%); // Yellow 900
+$br50: hsl(24, 50%, 96%); // Brown 50
+$br100: hsl(27, 47%, 90%); // Brown 100
+$br200: hsl(28, 47%, 85%); // Brown 200
+$br300: hsl(28, 46%, 74%); // Brown 300
+$br400: hsl(27, 47%, 62%); // Brown 400
+$br500: hsl(28, 47%, 46%); // Brown 500
+$br600: hsl(28, 47%, 37%); // Brown 600
+$br700: hsl(27, 46%, 30%); // Brown 700
+$br800: hsl(27, 46%, 21%); // Brown 800
+$br900: hsl(27, 47%, 17%); // Brown 900
+$r50: hsl(3, 80%, 96%); // Red 50
+$r100: hsl(1, 73%, 90%); // Red 100
+$r200: hsl(1, 76%, 85%); // Red 200
+$r300: hsl(2, 75%, 73%); // Red 300
+$r400: hsl(2, 76%, 61%); // Red 400
+$r500: hsl(2, 75%, 46%); // Red 500
+$r600: hsl(2, 76%, 38%); // Red 600
+$r700: hsl(2, 76%, 30%); // Red 700
+$r800: hsl(1, 75%, 22%); // Red 800
+$r900: hsl(2, 76%, 16%); // Red 900
+$p50: hsl(333, 100%, 96%); // Pink 50
+$p100: hsl(332, 100%, 90%); // Pink 100
+$p200: hsl(333, 100%, 85%); // Pink 200
+$p300: hsl(332, 100%, 73%); // Pink 300
+$p400: hsl(338, 100%, 61%); // Pink 400
+$p500: hsl(333, 100%, 44%); // Pink 500
+$p600: hsl(333, 100%, 38%); // Pink 600
+$p700: hsl(332, 100%, 30%); // Pink 700
+$p800: hsl(332, 100%, 21%); // Pink 800
+$p900: hsl(333, 100%, 17%); // Pink 900
+$v50: hsl(304, 68%, 96%); // Violet 50
+$v100: hsl(304, 65%, 90%); // Violet 100
+$v200: hsl(304, 65%, 85%); // Violet 200
+$v300: hsl(304, 65%, 73%); // Violet 300
+$v400: hsl(305, 65%, 61%); // Violet 400
+$v500: hsl(304, 65%, 47%); // Violet 500
+$v600: hsl(305, 65%, 38%); // Violet 600
+$v700: hsl(304, 66%, 30%); // Violet 700
+$v800: hsl(304, 66%, 21%); // Violet 800
+$v900: hsl(305, 65%, 17%); // Violet 900
+$b50: hsl(216, 90%, 96%); // Blue 50
+$b100: hsl(216, 86%, 90%); // Blue 100
+$b200: hsl(215, 87%, 84%); // Blue 200
+$b300: hsl(215, 87%, 73%); // Blue 300
+$b400: hsl(216, 87%, 61%); // Blue 400
+$b500: hsl(215, 88%, 46%); // Blue 500
+$b600: hsl(216, 87%, 38%); // Blue 600
+$b700: hsl(216, 88%, 30%); // Blue 700
+$b800: hsl(216, 87%, 21%); // Blue 800
+$b900: hsl(215, 88%, 16%); // Blue 900
+$c50: hsl(196, 71%, 95%); // Cyan 50
+$c100: hsl(197, 73%, 90%); // Cyan 100
+$c200: hsl(197, 73%, 85%); // Cyan 200
+$c300: hsl(196, 72%, 73%); // Cyan 300
+$c400: hsl(196, 73%, 61%); // Cyan 400
+$c500: hsl(197, 73%, 47%); // Cyan 500
+$c600: hsl(196, 73%, 36%); // Cyan 600
+$c700: hsl(196, 72%, 30%); // Cyan 700
+$c800: hsl(196, 73%, 21%); // Cyan 800
+$c900: hsl(197, 72%, 17%); // Cyan 900
+$t50: hsl(156, 100%, 96%); // Teal 50
+$t100: hsl(156, 100%, 88%); // Teal 100
+$t200: hsl(155, 100%, 78%); // Teal 200
+$t300: hsl(156, 100%, 58%); // Teal 300
+$t400: hsl(156, 100%, 48%); // Teal 400
+$t500: hsl(155, 100%, 38%); // Teal 500
+$t600: hsl(155, 100%, 26%); // Teal 600
+$t700: hsl(155, 100%, 20%); // Teal 700
+$t800: hsl(155, 100%, 17%); // Teal 800
+$t900: hsl(156, 100%, 12%); // Teal 900
 $font-heading: 'Lora', serif;
 $font-body: 'Poppins', sans-serif;
 $font-mono: 'Roboto Mono', monospace;
-$font-size-h-1: 12.5rem; // 200px
-$font-size-h-2: 6.25rem; // 100px
-$font-size-h-3: 2.5rem; // 40px
-$font-size-h-4: 2rem; // 32px
-$font-size-h-5: 1.5rem; // 24px
-$font-size-body-2: 1.25rem; // 20px
-$font-size-body-1: 1rem; // 16px
-$font-size-body-0: 0.875rem; // 14px
+$h1: 12.5rem; // 200px
+$h2: 6.25rem; // 100px
+$h3: 2.5rem; // 40px
+$h4: 2rem; // 32px
+$h5: 1.5rem; // 24px
+$body2: 1.25rem; // 20px
+$body1: 1rem; // 16px
+$body0: 0.875rem; // 14px
 $line-height-1: 1;
 $line-height-2: 1.28;
 $line-height-3: 1.7066667175292969;
@@ -122,15 +122,16 @@ $shadow-2: 0px 0px 24px rgba(0, 0, 0, 0.10000000149011612),
 $shadow-3: 0px 24px 60px rgba(0, 0, 0, 0.20000000298023224),
 	0px 8px 20px rgba(0, 0, 0, 0.15000000596046448);
 $spacing-1: 0.5em; // 8px
-$spacing-2: 1em; // 16px
-$spacing-3: 1.5em; // 24px
-$spacing-4: 2em; // 32px
-$spacing-5: 4em; // 64px
-$weight-extrabold: 800;
-$weight-bold: 700;
-$weight-medium: 600;
-$weight-regular: 400;
-$weight-light: 300;
+$spacing-2: 0.75em; // 12px
+$spacing-3: 1em; // 16px
+$spacing-4: 1.5em; // 24px
+$spacing-5: 2em; // 32px
+$spacing-6: 4em; // 64px
+$light: 300;
+$regular: 400;
+$medium: 600;
+$bold: 700;
+$extrabold: 800;
 $z-0: 0;
 $z-1: 1;
 $z-2: 10;
